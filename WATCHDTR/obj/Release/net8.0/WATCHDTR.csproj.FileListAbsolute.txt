@@ -1,0 +1,14 @@
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\bin\Release\net8.0\WATCHDTR.exe
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\bin\Release\net8.0\WATCHDTR.deps.json
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\bin\Release\net8.0\WATCHDTR.runtimeconfig.json
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\bin\Release\net8.0\WATCHDTR.dll
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\bin\Release\net8.0\WATCHDTR.pdb
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\obj\Release\net8.0\WATCHDTR.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\obj\Release\net8.0\WATCHDTR.AssemblyInfoInputs.cache
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\obj\Release\net8.0\WATCHDTR.AssemblyInfo.cs
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\obj\Release\net8.0\WATCHDTR.csproj.CoreCompileInputs.cache
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\obj\Release\net8.0\WATCHDTR.dll
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\obj\Release\net8.0\refint\WATCHDTR.dll
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\obj\Release\net8.0\WATCHDTR.pdb
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\obj\Release\net8.0\WATCHDTR.genruntimeconfig.cache
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\WATCHDTR\obj\Release\net8.0\ref\WATCHDTR.dll

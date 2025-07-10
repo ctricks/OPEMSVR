@@ -1,0 +1,10 @@
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\OPEMSVRCS\bin\Release\OPEMSVRCS.exe.config
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\OPEMSVRCS\bin\Release\OPEMSVRCS.exe
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\OPEMSVRCS\bin\Release\OPEMSVRCS.pdb
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\OPEMSVRCS\obj\Release\OPEMSVRCS.csproj.AssemblyReference.cache
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\OPEMSVRCS\obj\Release\OPEMSVRCS.ProjectInstaller.resources
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\OPEMSVRCS\obj\Release\OPEMSVRCS.csproj.GenerateResource.cache
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\OPEMSVRCS\obj\Release\OPEMSVRCS.csproj.CoreCompileInputs.cache
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\OPEMSVRCS\obj\Release\OPEMSVRCS.exe
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\OPEMSVRCS\obj\Release\OPEMSVRCS.pdb
+C:\Users\BOKNOY\source\repos\OPEMSVRCS\OPEMSVRCS\obj\Release\OPEMSVRCS.exe.config

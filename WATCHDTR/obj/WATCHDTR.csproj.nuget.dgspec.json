@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj": {}
   },
   "projects": {
@@ -12,6 +13,19 @@
         "projectPath": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj",
         "packagesPath": "C:\\Users\\BOK\\.nuget\\packages\\",
         "outputPath": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\obj\\",
+=======
+    "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj": {}
+  },
+  "projects": {
+    "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj",
+        "projectName": "WATCHDTR",
+        "projectPath": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj",
+        "packagesPath": "C:\\Users\\BOK\\.nuget\\packages\\",
+        "outputPath": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\obj\\",
+>>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

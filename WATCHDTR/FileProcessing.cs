@@ -176,6 +176,7 @@ namespace WATCHDTR
 
         public async Task CallPostApiAsync(string token, string postData,string IDTracker)
         {
+<<<<<<< HEAD
             string DateProcess = DateTime.Now.ToString("MM-dd-yyyy HH:mm:ss") + " : ";
             try
             {
@@ -212,11 +213,33 @@ namespace WATCHDTR
             
             
             
+=======
+            var DefaultDTR = "http://garuda45-001-site14.anytempurl.com/api/insertDTR2";
+            var DTRURL = helper.GetIniValue("DTRAPI", "APISettings", DefaultDTR);
+
+            // Set up the request headers
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+            // Create the request body
+            
+            var json = JsonConvert.SerializeObject(parameters);
+            var content = new StringContent(json, Encoding.UTF8, "application/json");
+
+            // Send the POST request
+            var response = await client.PostAsync(DTRURL, content);
+
+            // Handle the response
+            var responseString = await response.Content.ReadAsStringAsync();
+            Console.WriteLine(responseString);
+>>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
         }
 
         public async Task CallPostLogoutApiAsync(string token, string postData)
         {
-            var url = "http://garuda45-001-site14.anytempurl.com/api/logoutAPI";
+            
+            var DefaultLogout = "http://garuda45-001-site14.anytempurl.com/api/logoutAPI";
+            var URLLOGOUT = helper.GetIniValue("logoutAPI", "APISettings", DefaultLogout);
 
 
             //// Set up the request headers
@@ -228,6 +251,7 @@ namespace WATCHDTR
             //var json = JsonConvert.SerializeObject(parameters);
             //var content = new StringContent(json, Encoding.UTF8, "application/json");
 
+<<<<<<< HEAD
             //// Send the POST request
             //var response = await client.PostAsync(url,content);
 
@@ -257,6 +281,10 @@ namespace WATCHDTR
             var obj = JsonConvert.DeserializeObject<dynamic>(responseString);
 
             //result = obj["token"].ToString();
+=======
+            // Send the POST request
+            var response = await client.PostAsync(URLLOGOUT,content);
+>>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
 
             Console.WriteLine(responseString);
         }
@@ -266,7 +294,10 @@ namespace WATCHDTR
             string result = string.Empty;
             try
             {
-                var request = (HttpWebRequest)WebRequest.Create("http://garuda45-001-site14.anytempurl.com/api/loginAPI");
+                var DefaultLogin = "http://garuda45-001-site14.anytempurl.com/api/loginAPI";
+                var URLLOGIN = helper.GetIniValue("loginAPI", "APISettings", DefaultLogin);
+
+                var request = (HttpWebRequest)WebRequest.Create(URLLOGIN);
 
                 var postData = "email=" + Uri.EscapeDataString(Email);
                 postData += "&password=" + Uri.EscapeDataString(Password);

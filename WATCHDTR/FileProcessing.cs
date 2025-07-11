@@ -180,8 +180,8 @@ namespace WATCHDTR
 
         public async Task CallPostApiAsync(string token, object parameters)
         {
-            var url = "http://garuda45-001-site14.anytempurl.com/api/insertDTR";
-            
+            var DefaultDTR = "http://garuda45-001-site14.anytempurl.com/api/insertDTR2";
+            var DTRURL = helper.GetIniValue("DTRAPI", "APISettings", DefaultDTR);
 
             // Set up the request headers
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
@@ -193,7 +193,7 @@ namespace WATCHDTR
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
             // Send the POST request
-            var response = await client.PostAsync(url, content);
+            var response = await client.PostAsync(DTRURL, content);
 
             // Handle the response
             var responseString = await response.Content.ReadAsStringAsync();
@@ -202,7 +202,9 @@ namespace WATCHDTR
 
         public async Task CallPostLogoutApiAsync(string token,object parameters)
         {
-            var url = "http://garuda45-001-site14.anytempurl.com/api/logoutAPI";
+            
+            var DefaultLogout = "http://garuda45-001-site14.anytempurl.com/api/logoutAPI";
+            var URLLOGOUT = helper.GetIniValue("logoutAPI", "APISettings", DefaultLogout);
 
 
             // Set up the request headers
@@ -215,7 +217,7 @@ namespace WATCHDTR
             var content = new StringContent(json, Encoding.UTF8, "application/json");
 
             // Send the POST request
-            var response = await client.PostAsync(url,content);
+            var response = await client.PostAsync(URLLOGOUT,content);
 
             // Handle the response
             var responseString = await response.Content.ReadAsStringAsync();
@@ -227,7 +229,10 @@ namespace WATCHDTR
             string result = string.Empty;
             try
             {
-                var request = (HttpWebRequest)WebRequest.Create("http://garuda45-001-site14.anytempurl.com/api/loginAPI");
+                var DefaultLogin = "http://garuda45-001-site14.anytempurl.com/api/loginAPI";
+                var URLLOGIN = helper.GetIniValue("loginAPI", "APISettings", DefaultLogin);
+
+                var request = (HttpWebRequest)WebRequest.Create(URLLOGIN);
 
                 var postData = "email=" + Uri.EscapeDataString(Email);
                 postData += "&password=" + Uri.EscapeDataString(Password);

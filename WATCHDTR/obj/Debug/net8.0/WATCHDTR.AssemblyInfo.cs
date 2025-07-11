@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WATCHDTR")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65916cb0d9e95129274c9074376b2c046d2d2789")]
 [assembly: System.Reflection.AssemblyProductAttribute("WATCHDTR")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WATCHDTR")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Data;
 using System.Globalization;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -138,6 +140,28 @@ namespace WATCHDTR
 
             }
             return dateTime;
+        }
+        public void Log2File(string Message)
+        {
+            try
+            {
+                var path = AppDomain.CurrentDomain.BaseDirectory;
+
+                string CSVDirectory = Path.Combine(path, "DTR");
+
+                if(!Directory.Exists(CSVDirectory))
+                    Directory.CreateDirectory(CSVDirectory);
+
+                using (var sw = new StreamWriter(path, true))
+                {
+                    sw.WriteLine("The next line!");
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Logfile Erro: " + ex.Message.ToString());
+            }
+        
         }
     }
 }

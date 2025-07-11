@@ -12,6 +12,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace WATCHDTR
 {
@@ -151,24 +152,19 @@ namespace WATCHDTR
                             param6 = "WATCHDTR",
                             param7 = Excel.AttendanceDate.ToString("MMMM")
                         };
-                    ;
-                        string RespCode = string.Empty;
-                        CallPostApiAsync(LoginToken, parameters);
 
-                        if (RespCode == "unauthorized")
-                        {
-                            var parametersLO = new
-                            {
-                                param1 = username
-                            };
-                            CallPostLogoutApiAsync(LoginToken, parametersLO);
-                            LoginToken = LoginAPI(username, password);
-                            if (!string.IsNullOrEmpty(LoginToken) && !LoginToken.Contains("error"))
-                            {
-                                RespCode = string.Empty;
-                                CallPostApiAsync(LoginToken, parameters);
-                            }
-                        }
+                        var postData = "employee_id=" + Uri.EscapeDataString(Excel.EmployeeNumber);
+                        postData += "&name=" + Excel.EmployeeName;
+                        postData += "&select_date=" + formattedDate;
+                        postData += "&month=" + Uri.EscapeDataString(Excel.AttendanceDate.ToString("MMMM"));
+                        postData += "&check_in=" + TimeIn;
+                        postData += "&check_out=" + TimeOut;
+                        postData += "&DataSource=" + "WATCHDTR(" + DateTime.Now.ToString("MMddyyyy") + ")";
+
+                        string RespCode = string.Empty;
+                        string IDTracker = Excel.EmployeeName + "(" + formattedDate + ")";
+                        CallPostApiAsync(LoginToken, postData,IDTracker );
+
                         Thread.Sleep(1000);
                     }
                 }
@@ -178,47 +174,90 @@ namespace WATCHDTR
 
         
 
-        public async Task CallPostApiAsync(string token, object parameters)
+        public async Task CallPostApiAsync(string token, string postData,string IDTracker)
         {
-            var url = "http://garuda45-001-site14.anytempurl.com/api/insertDTR";
+            string DateProcess = DateTime.Now.ToString("MM-dd-yyyy HH:mm:ss") + " : ";
+            try
+            {
+                var url = "http://garuda45-001-site14.anytempurl.com/api/insertDTR2";
+
+                var data = Encoding.ASCII.GetBytes(postData);
+
+                var request = (HttpWebRequest)WebRequest.Create(url);
+
+                request.Method = "POST";
+                request.ContentType = "application/x-www-form-urlencoded";
+                //request.Headers.Add("Authorization", "Bearer " + token);
+                request.Accept = "application/json";
+                request.ContentLength = data.Length;
+
+
+                using (var stream = request.GetRequestStream())
+                {
+                    stream.Write(data, 0, data.Length);
+                }
+
+                var response = (HttpWebResponse)request.GetResponse();
+
+                var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+
+                var obj = JsonConvert.DeserializeObject<dynamic>(responseString);
+
+                Console.WriteLine(DateProcess + ": " + IDTracker + ":" +  responseString);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(DateProcess + ": " + IDTracker + ": Error: " + ex.Message);
+            }
             
-
-            // Set up the request headers
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-            // Create the request body
             
-            var json = JsonConvert.SerializeObject(parameters);
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-            // Send the POST request
-            var response = await client.PostAsync(url, content);
-
-            // Handle the response
-            var responseString = await response.Content.ReadAsStringAsync();
-            Console.WriteLine(responseString);
+            
         }
 
-        public async Task CallPostLogoutApiAsync(string token,object parameters)
+        public async Task CallPostLogoutApiAsync(string token, string postData)
         {
             var url = "http://garuda45-001-site14.anytempurl.com/api/logoutAPI";
 
 
-            // Set up the request headers
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            //// Set up the request headers
+            //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            //client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-            // Create the request body
+            //// Create the request body
 
-            var json = JsonConvert.SerializeObject(parameters);
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
+            //var json = JsonConvert.SerializeObject(parameters);
+            //var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-            // Send the POST request
-            var response = await client.PostAsync(url,content);
+            //// Send the POST request
+            //var response = await client.PostAsync(url,content);
 
-            // Handle the response
-            var responseString = await response.Content.ReadAsStringAsync();
+            //// Handle the response
+            //var responseString = await response.Content.ReadAsStringAsync();
+
+            var data = Encoding.ASCII.GetBytes(postData);
+
+            var request = (HttpWebRequest)WebRequest.Create(url);
+
+            request.Method = "POST";
+            request.ContentType = "application/x-www-form-urlencoded";
+            request.Headers.Add("Authorization", "Bearer " + token);
+            request.Accept = "application/json";
+            request.ContentLength = data.Length;
+            
+
+            using (var stream = request.GetRequestStream())
+            {
+                stream.Write(data, 0, data.Length);
+            }
+
+            var response = (HttpWebResponse)request.GetResponse();
+
+            var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
+
+            var obj = JsonConvert.DeserializeObject<dynamic>(responseString);
+
+            //result = obj["token"].ToString();
+
             Console.WriteLine(responseString);
         }
 

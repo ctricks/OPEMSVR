@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj": {}
-  },
-  "projects": {
-    "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj",
-        "projectName": "WATCHDTR",
-        "projectPath": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj",
-        "packagesPath": "C:\\Users\\BOK\\.nuget\\packages\\",
-        "outputPath": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\obj\\",
-=======
     "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj": {}
   },
   "projects": {
@@ -25,7 +12,6 @@
         "projectPath": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj",
         "packagesPath": "C:\\Users\\BOK\\.nuget\\packages\\",
         "outputPath": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\obj\\",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -36,7 +22,7 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net8.0-windows"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -44,8 +30,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
             "projectReferences": {}
           }
         },
@@ -62,8 +48,8 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",

@@ -176,22 +176,19 @@ namespace WATCHDTR
 
         public async Task CallPostApiAsync(string token, string postData,string IDTracker)
         {
-<<<<<<< HEAD
             string DateProcess = DateTime.Now.ToString("MM-dd-yyyy HH:mm:ss") + " : ";
             try
-            {
-                var url = "http://garuda45-001-site14.anytempurl.com/api/insertDTR2";
+            {            
+                var DefaultDTR = "http://garuda45-001-site14.anytempurl.com/api/insertDTR2";
+                var DTRURL = helper.GetIniValue("DTRAPI", "APISettings", DefaultDTR);
 
                 var data = Encoding.ASCII.GetBytes(postData);
 
-                var request = (HttpWebRequest)WebRequest.Create(url);
+                var request = (HttpWebRequest)WebRequest.Create(DTRURL);
 
                 request.Method = "POST";
                 request.ContentType = "application/x-www-form-urlencoded";
-                //request.Headers.Add("Authorization", "Bearer " + token);
-                request.Accept = "application/json";
                 request.ContentLength = data.Length;
-
 
                 using (var stream = request.GetRequestStream())
                 {
@@ -211,28 +208,6 @@ namespace WATCHDTR
                 Console.WriteLine(DateProcess + ": " + IDTracker + ": Error: " + ex.Message);
             }
             
-            
-            
-=======
-            var DefaultDTR = "http://garuda45-001-site14.anytempurl.com/api/insertDTR2";
-            var DTRURL = helper.GetIniValue("DTRAPI", "APISettings", DefaultDTR);
-
-            // Set up the request headers
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-            // Create the request body
-            
-            var json = JsonConvert.SerializeObject(parameters);
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-            // Send the POST request
-            var response = await client.PostAsync(DTRURL, content);
-
-            // Handle the response
-            var responseString = await response.Content.ReadAsStringAsync();
-            Console.WriteLine(responseString);
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
         }
 
         public async Task CallPostLogoutApiAsync(string token, string postData)
@@ -242,25 +217,9 @@ namespace WATCHDTR
             var URLLOGOUT = helper.GetIniValue("logoutAPI", "APISettings", DefaultLogout);
 
 
-            //// Set up the request headers
-            //client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
-            //client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-
-            //// Create the request body
-
-            //var json = JsonConvert.SerializeObject(parameters);
-            //var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-<<<<<<< HEAD
-            //// Send the POST request
-            //var response = await client.PostAsync(url,content);
-
-            //// Handle the response
-            //var responseString = await response.Content.ReadAsStringAsync();
-
             var data = Encoding.ASCII.GetBytes(postData);
 
-            var request = (HttpWebRequest)WebRequest.Create(url);
+            var request = (HttpWebRequest)WebRequest.Create(URLLOGOUT);
 
             request.Method = "POST";
             request.ContentType = "application/x-www-form-urlencoded";
@@ -279,12 +238,6 @@ namespace WATCHDTR
             var responseString = new StreamReader(response.GetResponseStream()).ReadToEnd();
 
             var obj = JsonConvert.DeserializeObject<dynamic>(responseString);
-
-            //result = obj["token"].ToString();
-=======
-            // Send the POST request
-            var response = await client.PostAsync(URLLOGOUT,content);
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
 
             Console.WriteLine(responseString);
         }

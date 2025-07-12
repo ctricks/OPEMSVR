@@ -1,94 +1,41 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|h:\\backup payroll\\new system proposal\\middleware\\opemsvr\\watchdtr\\clshelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|solutionrelative:watchdtr\\clshelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|h:\\backup payroll\\new system proposal\\middleware\\opemsvr\\watchdtr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|solutionrelative:watchdtr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BOK\\AppData\\Local\\SourceServer\\3091753968ca67baf14107305f150084f4bb42ea0a07372531972778dafcc594\\WATCHDTR\\FileProcessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|h:\\backup payroll\\new system proposal\\middleware\\opemsvr\\watchdtr\\fileprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|solutionrelative:watchdtr\\fileprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
   "WorkspaceRootPath": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\",
   "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|e:\\project\\payroll_demo\\opemsvr\\watchdtr\\settings.ini||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|solutionrelative:watchdtr\\settings.ini||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
     {
       "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|e:\\project\\payroll_demo\\opemsvr\\watchdtr\\fileprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|solutionrelative:watchdtr\\fileprocessing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|e:\\project\\payroll_demo\\opemsvr\\watchdtr\\clshelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|solutionrelative:watchdtr\\clshelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BOKNOY\\AppData\\Local\\Temp\\.vsdbgsrc\\7bb6c4aba5258b5eff6fc4abc85c321d4df0f271f79fbadad02fb56abf2865e1\\DateTime.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|h:\\backup payroll\\new system proposal\\middleware\\opemsvr\\watchdtr\\settings.ini||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|e:\\project\\payroll_demo\\opemsvr\\watchdtr\\settings.ini||{3B902123-F8A7-4915-9F01-361F908088D0}",
       "RelativeMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|solutionrelative:watchdtr\\settings.ini||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\opemsvrcs\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|solutionrelative:opemsvrcs\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|h:\\backup payroll\\new system proposal\\middleware\\opemsvr\\watchdtr\\inifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|solutionrelative:watchdtr\\inifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\opemsvrcs\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-=======
-      "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|e:\\project\\payroll_demo\\opemsvr\\watchdtr\\attendanceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|solutionrelative:watchdtr\\attendanceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|e:\\project\\payroll_demo\\opemsvr\\watchdtr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|solutionrelative:watchdtr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\opemsvrcs\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|solutionrelative:opemsvrcs\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|e:\\project\\payroll_demo\\opemsvr\\watchdtr\\inifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|solutionrelative:watchdtr\\inifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|e:\\project\\payroll_demo\\opemsvr\\watchdtr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|solutionrelative:watchdtr\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|e:\\project\\payroll_demo\\opemsvr\\watchdtr\\clshelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D64C824C-5E14-4449-A069-5B4BAAA1261B}|WATCHDTR\\WATCHDTR.csproj|solutionrelative:watchdtr\\clshelpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\opemsvrcs\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|solutionrelative:opemsvrcs\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\opemsvrcs\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
       "RelativeMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|solutionrelative:opemsvrcs\\service1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|OPEMSVRCS||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\opemsvrcs\\projectinstaller.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|solutionrelative:opemsvrcs\\projectinstaller.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\opemsvrcs\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-=======
       "AbsoluteMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\opemsvrcs\\projectinstaller.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|solutionrelative:opemsvrcs\\projectinstaller.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\opemsvrcs\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
       "RelativeMoniker": "D:0:0:{7F174AF3-173A-4FA7-87C4-2A2D84E23FE4}|OPEMSVRCS\\OPEMSVRCS.csproj|solutionrelative:opemsvrcs\\projectinstaller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -99,236 +46,118 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FileProcessing.cs",
-              "DocumentMoniker": "C:\\Users\\BOK\\AppData\\Local\\SourceServer\\3091753968ca67baf14107305f150084f4bb42ea0a07372531972778dafcc594\\WATCHDTR\\FileProcessing.cs",
-              "ToolTip": "C:\\Users\\BOK\\AppData\\Local\\SourceServer\\3091753968ca67baf14107305f150084f4bb42ea0a07372531972778dafcc594\\WATCHDTR\\FileProcessing.cs [Read Only]",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGsAAAAQAAAAAQAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T23:09:06.822Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-=======
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
-              "Title": "DateTime.cs",
-              "DocumentMoniker": "C:\\Users\\BOKNOY\\AppData\\Local\\Temp\\.vsdbgsrc\\7bb6c4aba5258b5eff6fc4abc85c321d4df0f271f79fbadad02fb56abf2865e1\\DateTime.cs",
-              "ToolTip": "C:\\Users\\BOKNOY\\AppData\\Local\\Temp\\.vsdbgsrc\\7bb6c4aba5258b5eff6fc4abc85c321d4df0f271f79fbadad02fb56abf2865e1\\DateTime.cs [Read Only]",
-              "ViewState": "AgIAAL0DAAAAAAAAAAAswMcDAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T13:04:34.583Z",
-              "EditorCaption": " [Read Only]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Settings.ini",
-<<<<<<< HEAD
-              "DocumentMoniker": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\Settings.ini",
-              "RelativeDocumentMoniker": "WATCHDTR\\Settings.ini",
-              "ToolTip": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\Settings.ini",
-=======
               "DocumentMoniker": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\Settings.ini",
               "RelativeDocumentMoniker": "WATCHDTR\\Settings.ini",
               "ToolTip": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\Settings.ini",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
               "RelativeToolTip": "WATCHDTR\\Settings.ini",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002768|",
-              "WhenOpened": "2025-07-08T01:38:39.452Z",
+              "WhenOpened": "2025-07-11T23:50:36.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "IniFile.cs",
-<<<<<<< HEAD
-              "DocumentMoniker": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\IniFile.cs",
-              "RelativeDocumentMoniker": "WATCHDTR\\IniFile.cs",
-              "ToolTip": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\IniFile.cs",
-=======
               "DocumentMoniker": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\IniFile.cs",
               "RelativeDocumentMoniker": "WATCHDTR\\IniFile.cs",
               "ToolTip": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\IniFile.cs",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
               "RelativeToolTip": "WATCHDTR\\IniFile.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAmwAoAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T01:36:32.091Z"
+              "WhenOpened": "2025-07-11T23:50:36.493Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 0,
-              "Title": "clsHelpers.cs",
-              "DocumentMoniker": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\clsHelpers.cs",
-              "RelativeDocumentMoniker": "WATCHDTR\\clsHelpers.cs",
-              "ToolTip": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\clsHelpers.cs",
-              "RelativeToolTip": "WATCHDTR\\clsHelpers.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAgwI8AAAAsAAAAAAAAAA==",
-=======
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "clsHelpers.cs",
               "DocumentMoniker": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\clsHelpers.cs",
               "RelativeDocumentMoniker": "WATCHDTR\\clsHelpers.cs",
               "ToolTip": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\clsHelpers.cs",
               "RelativeToolTip": "WATCHDTR\\clsHelpers.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwvyEAAAAIAAAAAAAAAA==",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
+              "ViewState": "AgIAAEUAAAAAAAAAAAAgwI8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T01:19:32.57Z",
+              "WhenOpened": "2025-07-11T23:50:36.495Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 3,
-              "Title": "FileProcessing.cs",
-              "DocumentMoniker": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\FileProcessing.cs",
-              "RelativeDocumentMoniker": "WATCHDTR\\FileProcessing.cs",
-              "ToolTip": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\FileProcessing.cs",
-              "RelativeToolTip": "WATCHDTR\\FileProcessing.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABwAAABCAAAAAAAAAA==",
-=======
-              "DocumentIndex": 4,
-              "Title": "AttendanceInfo.cs",
-              "DocumentMoniker": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\AttendanceInfo.cs",
-              "RelativeDocumentMoniker": "WATCHDTR\\AttendanceInfo.cs",
-              "ToolTip": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\AttendanceInfo.cs",
-              "RelativeToolTip": "WATCHDTR\\AttendanceInfo.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAYwBcAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T01:18:22.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FileProcessing.cs",
               "DocumentMoniker": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\FileProcessing.cs",
               "RelativeDocumentMoniker": "WATCHDTR\\FileProcessing.cs",
               "ToolTip": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\FileProcessing.cs",
               "RelativeToolTip": "WATCHDTR\\FileProcessing.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAswGgAAAAtAAAAAAAAAA==",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
+              "ViewState": "AgIAAL4AAAAAAAAAAADwv9QAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T00:53:33.334Z"
+              "WhenOpened": "2025-07-11T23:50:36.497Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-<<<<<<< HEAD
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\Program.cs",
-              "RelativeDocumentMoniker": "WATCHDTR\\Program.cs",
-              "ToolTip": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\Program.cs",
-=======
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\Program.cs",
               "RelativeDocumentMoniker": "WATCHDTR\\Program.cs",
               "ToolTip": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\Program.cs",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
               "RelativeToolTip": "WATCHDTR\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-08T00:50:59.939Z"
+              "WhenOpened": "2025-07-11T23:50:36.498Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ProjectInstaller.cs",
-<<<<<<< HEAD
-              "DocumentMoniker": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\OPEMSVRCS\\ProjectInstaller.cs",
-              "RelativeDocumentMoniker": "OPEMSVRCS\\ProjectInstaller.cs",
-              "ToolTip": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\OPEMSVRCS\\ProjectInstaller.cs",
-=======
               "DocumentMoniker": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\OPEMSVRCS\\ProjectInstaller.cs",
               "RelativeDocumentMoniker": "OPEMSVRCS\\ProjectInstaller.cs",
               "ToolTip": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\OPEMSVRCS\\ProjectInstaller.cs",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
               "RelativeToolTip": "OPEMSVRCS\\ProjectInstaller.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T03:08:34.59Z"
+              "WhenOpened": "2025-07-11T23:50:36.501Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OPEMSVRCS",
-<<<<<<< HEAD
-              "DocumentMoniker": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\OPEMSVRCS\\OPEMSVRCS.csproj",
-              "RelativeDocumentMoniker": "OPEMSVRCS\\OPEMSVRCS.csproj",
-              "ToolTip": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\OPEMSVRCS\\OPEMSVRCS.csproj",
-=======
-              "DocumentMoniker": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\OPEMSVRCS\\OPEMSVRCS.csproj",
-              "RelativeDocumentMoniker": "OPEMSVRCS\\OPEMSVRCS.csproj",
-              "ToolTip": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\OPEMSVRCS\\OPEMSVRCS.csproj",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
-              "RelativeToolTip": "OPEMSVRCS\\OPEMSVRCS.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-07-07T02:54:34.515Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "ProjectInstaller.Designer.cs",
-<<<<<<< HEAD
-              "DocumentMoniker": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\OPEMSVRCS\\ProjectInstaller.Designer.cs",
-              "RelativeDocumentMoniker": "OPEMSVRCS\\ProjectInstaller.Designer.cs",
-              "ToolTip": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\OPEMSVRCS\\ProjectInstaller.Designer.cs",
-=======
               "DocumentMoniker": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\OPEMSVRCS\\ProjectInstaller.Designer.cs",
               "RelativeDocumentMoniker": "OPEMSVRCS\\ProjectInstaller.Designer.cs",
               "ToolTip": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\OPEMSVRCS\\ProjectInstaller.Designer.cs",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
               "RelativeToolTip": "OPEMSVRCS\\ProjectInstaller.Designer.cs",
               "ViewState": "AgIAACYAAAAAAAAAAAAQwEAAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T02:42:01.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ProjectInstaller.cs [Design]",
-<<<<<<< HEAD
-              "DocumentMoniker": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\OPEMSVRCS\\ProjectInstaller.cs",
-=======
-              "DocumentMoniker": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\OPEMSVRCS\\ProjectInstaller.cs",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
-              "RelativeDocumentMoniker": "OPEMSVRCS\\ProjectInstaller.cs",
-              "ToolTip": "C:\\Users\\BOKNOY\\source\\repos\\OPEMSVRCS\\OPEMSVRCS\\ProjectInstaller.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T02:40:57.737Z"
+              "WhenOpened": "2025-07-11T23:50:36.505Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "ProjectInstaller.cs [Design]",
+              "DocumentMoniker": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\OPEMSVRCS\\ProjectInstaller.cs",
+              "RelativeDocumentMoniker": "OPEMSVRCS\\ProjectInstaller.cs",
+              "ToolTip": "C:\\Users\\BOKNOY\\source\\repos\\OPEMSVRCS\\OPEMSVRCS\\ProjectInstaller.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T23:50:36.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Service1.cs",
-<<<<<<< HEAD
-              "DocumentMoniker": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\OPEMSVRCS\\Service1.cs",
-              "RelativeDocumentMoniker": "OPEMSVRCS\\Service1.cs",
-              "ToolTip": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\OPEMSVRCS\\Service1.cs",
-=======
               "DocumentMoniker": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\OPEMSVRCS\\Service1.cs",
               "RelativeDocumentMoniker": "OPEMSVRCS\\Service1.cs",
               "ToolTip": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\OPEMSVRCS\\Service1.cs",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
               "RelativeToolTip": "OPEMSVRCS\\Service1.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAzwCMAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-07T02:39:26.057Z"
+              "WhenOpened": "2025-07-11T23:50:36.507Z"
             }
           ]
         }

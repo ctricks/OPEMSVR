@@ -1,14 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "pVBAwTtGCs8=",
-  "success": true,
-  "projectFilePath": "H:\\backUp Payroll\\NEW SYSTEM PROPOSAL\\MIDDLEWARE\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj",
-=======
-  "dgSpecHash": "RifMNACzCSU=",
+  "dgSpecHash": "eA+plf/29c4=",
   "success": true,
   "projectFilePath": "E:\\PROJECT\\PAYROLL_DEMO\\OPEMSVR\\WATCHDTR\\WATCHDTR.csproj",
->>>>>>> 0788cd03d44478f42bb564ff8b04f179c7e452df
   "expectedPackageFiles": [
     "C:\\Users\\BOK\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\BOK\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512"
